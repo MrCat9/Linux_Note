@@ -1,0 +1,32 @@
+cmd下
+
+# 查看crontab列表
+crontab -l
+
+# 编辑crontab列表
+crontab -e
+
+# 查看crontab运行日志
+sudo cat /var/log/cron
+
+
+
+
+# 要设置一个定时python程序的话（3步）：
+1. 写一个shell脚本
+vi run_spider_sh.sh
+内容：
+#!/bin/sh
+cd /home/···/spider    -->cd到python程序所在的文件夹
+/usr/local/bin/python3 test_spider.py    -->运行python程序
+echo "yes" >> /home/···/test.txt    -->将 yes 写到test.txt里
+
+
+2. 给sh赋予运行权限
+chmod +x /home/···/run_spider_sh.sh
+
+
+3. 设置定时运行sh
+crontab -e
+
+30 22 * * * /home/···/run_spider_sh.sh  -->每天22:30运行run_spider_sh.sh    -->分钟 小时 天 月 星期 要执行的命令
