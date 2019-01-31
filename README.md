@@ -18,3 +18,8 @@ scp -P [端口号] [本地文件地址] [用户名]@[IP地址]:[服务器上的�
 ```
 
 ## crontab定时任务
+
+## centos7 更新Firefox版本
+```
+https://blog.csdn.net/swazer_z/article/details/64442471
+```
