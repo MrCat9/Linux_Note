@@ -39,3 +39,10 @@ grep 是搜索
 kill -9 [PID]
 ```
 -9 表示强迫进程立即停止
+
+## 批量终止进程
+```
+pgrep firefox | xargs kill -s 9
+```
+关闭所有firefox的进程
+
