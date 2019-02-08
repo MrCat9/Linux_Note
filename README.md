@@ -46,3 +46,7 @@ pgrep firefox | xargs kill -s 9
 ```
 关闭所有firefox的进程
 
+## 压缩/解压缩
+```
+https://www.cnblogs.com/wangluochong/p/7194037.html
+```
