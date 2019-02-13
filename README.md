@@ -50,3 +50,16 @@ pgrep firefox | xargs kill -s 9
 ```
 https://www.cnblogs.com/wangluochong/p/7194037.html
 ```
+
+## 配置环境变量
+```
+cd ~
+ll -a 
+vi .bash_profile
+source .bash_profile  # 重启.bash_profile使修改生效
+
+
+GECKODRIVER_HOME=/home/···/software/geckodriver
+export PATH=$PATH:$GECKODRIVER_HOME
+```
+
