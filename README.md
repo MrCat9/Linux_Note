@@ -78,6 +78,9 @@ mkfs.ext4 /dev/sdl
 
 挂载
 mount /dev/sdl /home/user1/temp_test
+
+取消挂载
+umount /dev/sdl
 ```
 
 11_查看CPU和内存使用情况
