@@ -93,4 +93,7 @@ linux下查看CPU、内存、磁盘信息
 https://www.cnblogs.com/xubiao/p/6497533.html
 ```
 
-
+12_后台运行python脚本
+```
+https://www.cnblogs.com/master-pokemon/p/5790783.html
+```
