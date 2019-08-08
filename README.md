@@ -32,9 +32,14 @@ ps -ef
 ```
 
 ```
+可以用 grep 搜索
 ps -ef | grep python
 ```
-grep 是搜索
+
+```
+在Linux中查看所有正在运行的进程
+https://www.cnblogs.com/zwgblog/p/5971455.html
+```
 
 6_终止进程
 ```
@@ -98,5 +103,16 @@ https://www.cnblogs.com/xubiao/p/6497533.html
 
 12_后台运行python脚本
 ```
+python /···/my_python.py > my_python.log &
+```
+```
+linux 下后台运行python脚本
 https://www.cnblogs.com/master-pokemon/p/5790783.html
 ```
+
+13_文件权限
+```
+Linux命令:修改文件权限命令chmod、chgrp、chown详解
+https://www.cnblogs.com/Berryxiong/p/6193866.html
+```
+
