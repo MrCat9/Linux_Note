@@ -86,6 +86,12 @@ mount /dev/sdl /home/user1/temp_test
 
 取消挂载
 umount /dev/sdl
+
+查看占用磁盘的进程
+fuser -m -v /dev/sdl
+
+取消挂载 umount 时出现的 “Device is busy”
+https://blog.csdn.net/a1232345/article/details/46710989/
 ```
 
 11_查看CPU和内存使用情况
