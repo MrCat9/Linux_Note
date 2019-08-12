@@ -122,3 +122,18 @@ Linux命令:修改文件权限命令chmod、chgrp、chown详解
 https://www.cnblogs.com/Berryxiong/p/6193866.html
 ```
 
+14_ln
+```
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+
+Linux软链接的创建，删除，修改
+https://blog.csdn.net/weixin_40744265/article/details/87916847
+
+ln命令创建和删除软、硬链接
+https://www.cnblogs.com/klb561/p/9240758.html
+
+在文件之间建立链接（硬链接和软链接）详解版
+http://c.biancheng.net/view/740.html
+```
+
+15_
