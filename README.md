@@ -52,6 +52,10 @@ kill -9 [PID]
 pgrep firefox | xargs kill -s 9
 ```
 关闭所有firefox的进程
+```
+Linux下强制杀死进程的方法
+https://www.cnblogs.com/liaojie970/p/7131043.html
+```
 
 8_压缩/解压缩
 ```
@@ -136,4 +140,8 @@ https://www.cnblogs.com/klb561/p/9240758.html
 http://c.biancheng.net/view/740.html
 ```
 
-15_
+15_孤儿进程与僵尸进程
+```
+https://www.cnblogs.com/Anker/p/3271773.html
+```
+
