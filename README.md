@@ -145,3 +145,9 @@ http://c.biancheng.net/view/740.html
 https://www.cnblogs.com/Anker/p/3271773.html
 ```
 
+16_显示文件的最后几行
+```
+显示 filename 的最后10行
+tail -n 10 filename
+```
+
