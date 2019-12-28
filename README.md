@@ -151,3 +151,8 @@ https://www.cnblogs.com/Anker/p/3271773.html
 tail -n 10 filename
 ```
 
+17_shell脚本删除X天前的日志
+```sh
+ #!/bin/sh
+find /opt/soft/log/ -mtime +30 -name "*.log" -exec rm -rf {} \;
+```
