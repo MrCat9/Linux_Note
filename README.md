@@ -152,7 +152,12 @@ tail -n 10 filename
 ```
 
 17_shell脚本删除X天前的日志
+
+https://blog.csdn.net/weixin_33691817/article/details/93494414
+
+https://blog.csdn.net/lylload/article/details/79231655
+
 ```sh
- #!/bin/sh
+#!/bin/bash
 find /opt/soft/log/ -mtime +30 -name "*.log" -exec rm -rf {} \;
 ```
