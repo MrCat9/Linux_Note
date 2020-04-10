@@ -19,7 +19,7 @@ scp -P [端口号] [本地文件地址] [用户名]@[IP地址]:[服务器上的�
 ./[.sh文件]
 ```
 
-#### 3_crontab定时任务
+#### [3_crontab定时任务](https://github.com/MrCat9/Linux_Note/blob/master/crontab_task.md)
 
 #### 4_centos7 更新Firefox版本
 ```
@@ -175,3 +175,9 @@ cat filename.txt | tail -n +3000 | head -n 1000
 sed -n '5,10p' filename.txt
 ```
 查看某个文件指定行信息（前n行，后n行） https://blog.csdn.net/qq_21997625/article/details/89460657
+
+#### [19_nginx负载均衡](https://github.com/MrCat9/Linux_Note/blob/master/nginx_load_balancing_test.conf)
+
+https://www.jianshu.com/p/3c4caf00a73d
+
+https://www.cnblogs.com/HeiDi-BoKe/p/11417155.html
