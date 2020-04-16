@@ -44,3 +44,10 @@ chmod +x /home/···/run_spider_sh.sh
 crontab -e
 
 30 22 * * * /home/···/run_spider_sh.sh  -->每天22:30运行run_spider_sh.sh    -->分钟 小时 天 月 星期 要执行的命令
+
+# 报错："/var/spool/cron/tmp.XXXXFSq8E3: 权限不够"
+
+https://blog.csdn.net/weixin_43822878/article/details/104053015
+
+
+
