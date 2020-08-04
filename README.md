@@ -181,3 +181,18 @@ sed -n '5,10p' filename.txt
 https://www.jianshu.com/p/3c4caf00a73d
 
 https://www.cnblogs.com/HeiDi-BoKe/p/11417155.html
+
+#### 20_xshell无法连接远程服务器
+
+```
+有的能连上有的连不上。可能是因为IP进了黑名单。
+
+查看黑名单列表
+cat /etc/hosts.deny
+
+从黑名单中删除该IP
+sudo vim /etc/hosts.deny
+```
+
+
+
