@@ -194,5 +194,9 @@ cat /etc/hosts.deny
 sudo vim /etc/hosts.deny
 ```
 
+#### 21_查看公网/外网IP
 
+```
+curl icanhazip.comcurl icanhazip.com
+```
 
