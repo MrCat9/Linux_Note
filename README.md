@@ -74,13 +74,16 @@ GECKODRIVER_HOME=/home/···/software/geckodriver
 export PATH=$PATH:$GECKODRIVER_HOME
 ```
 
-#### 10_磁盘格式化与挂载
+#### 10_[磁盘格式化与挂载](https://www.cnblogs.com/cc66/p/9414718.html)
 ```
 磁盘使用情况
 df -h
 
 查看磁盘
 fdisk -l
+
+查看系统检测的磁盘
+lsblk
 
 磁盘格式化
 mkfs.ext4 /dev/sdl
