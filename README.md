@@ -203,3 +203,6 @@ sudo vim /etc/hosts.deny
 curl icanhazip.comcurl icanhazip.com
 ```
 
+#### 22_使用`tinyproxy`搭建代理服务器
+
+linux下搭建HTTP代理服务器 https://blog.csdn.net/zzggb/article/details/105201608
