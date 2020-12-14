@@ -200,6 +200,7 @@ sudo vim /etc/hosts.deny
 #### 21_查看公网/外网IP
 
 ```
+curl httpbin.org/get
 curl icanhazip.comcurl icanhazip.com
 ```
 
