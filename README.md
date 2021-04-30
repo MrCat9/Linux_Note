@@ -207,3 +207,14 @@ curl icanhazip.comcurl icanhazip.com
 #### 22_使用`tinyproxy`搭建代理服务器
 
 linux下搭建HTTP代理服务器 https://blog.csdn.net/zzggb/article/details/105201608
+
+#### 23_虚拟机下的虚拟机
+
+```
+无法在虚拟机上再创建虚拟机。
+在Windows虚拟机上可以安装virtual box，但无法创建Ubuntu虚拟机。
+
+无法在Windows虚拟机上安装docker。
+docker基于Linux运行，Windows上的docker需要跑在Linux虚拟机上。
+```
+
