@@ -218,3 +218,7 @@ linux下搭建HTTP代理服务器 https://blog.csdn.net/zzggb/article/details/10
 docker基于Linux运行，Windows上的docker需要跑在Linux虚拟机上。
 ```
 
+#### 24_网络故障排查
+
+网络故障排查 https://blog.csdn.net/weixin_39755824/article/details/109828882
+
