@@ -222,3 +222,4 @@ docker基于Linux运行，Windows上的docker需要跑在Linux虚拟机上。
 
 网络故障排查 https://blog.csdn.net/weixin_39755824/article/details/109828882
 
+#### 25_[bashrc与profile的区别](https://www.cnblogs.com/yuanqiangfei/p/10232148.html)
